@@ -11,40 +11,45 @@ package diagrama.de.clases;
  */
 public class Alarma {
     
-   private Actuador Actuador1;
-   public void setActuador1(Actuador Actuador1p)
-  {
-  this.Actuador1=Actuador1p;
-  }
-  public Actuador getActuador1()
-  {
-  return Actuador1;
-  }
-  
-  private Aviso Aviso1;
-   public void setAviso1(Aviso Aviso1p)
-  {
-  this.Aviso1=Aviso1p;
-  }
-  public Aviso getAviso1()
-  {
-  return Aviso1;
-  }
+    private Actuador actuador1;
+
+    public void setActuador1(Actuador actuador1p) {
+        this.actuador1 = actuador1p;
+    }
+
+    public Actuador getActuador1() {
+        return actuador1;
+    }
+
+    private Aviso aviso1;
+
+    public void setAviso1(Aviso aviso1p) {
+        this.aviso1 = aviso1p;
+    }
+
+    public Aviso getAviso1() {
+        return aviso1;
+    }
+
+    private int dniAlarma;
+
+    public void setDniAlarma(int dniAlarmap) {
+        this.dniAlarma = dniAlarmap;
+    }
+
+    public int getDniAlarma() {
+        return dniAlarma;
+    }
+
+    public void Activar_Aviso() {
+    };
+
     
+    public void Activar_Bloqueo() {
+    };
+
     
-    
-    
-   private int dniAlarma;
-   public void setdniAlarma(int dniAlarmap)
-  {
-  this.dniAlarma=dniAlarmap;
-  }
-  public int getdniAlarma()
-  {
-  return dniAlarma;
-  }
-  
-    public void Activar_Aviso(){};
-    public void Activar_Bloqueo(){};
-     public void Activar_Desbloqueo(){};
+     public void Activar_Desbloqueo() {
+    };
+
 }

@@ -11,24 +11,22 @@ package diagrama.de.clases;
  */
 public class Alcoholimetro {
     
-   private Alarma Alarma1;
-   public void setAlarma1(Alarma Alarma1p)
+   private Alarma alarma1;
+   public void setAlarma1(Alarma alarma1p)
   {
-  this.Alarma1=Alarma1p;
+  this.alarma1=alarma1p;
   }
   public Alarma getAlarma1()
   {
-  return Alarma1;
-  }
-    
-    
+  return alarma1;
+  }  
     
    private int dniAlcoholimetro;
-   public void setdniAlcoholimetro(int dniAlcoholimetrop)
+   public void setDniAlcoholimetro(int dniAlcoholimetrop)
   {
   this.dniAlcoholimetro=dniAlcoholimetrop;
   }
-  public int getdniAlcoholimetro()
+  public int getDniAlcoholimetro()
   {
   return dniAlcoholimetro;
   }

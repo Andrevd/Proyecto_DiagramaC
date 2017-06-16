@@ -11,28 +11,29 @@ package diagrama.de.clases;
  */
 public class Aviso {
     
-    
-   private int dniAviso;
-   public void setAviso(int dniAvisop)
-  {
-  this.dniAviso=dniAvisop;
-  }
-  public int getdniAviso()
-  {
-  return dniAviso;
-  }
-  
-  
-   private String aviso;
-   public void setaviso(String avisop)
-  {
-  this.aviso=avisop;
-  }
-  public String getaviso()
-  {
-  return aviso;
-  }
-    public void Emitir_Mensaje(){};
+       private int dniAviso;
+
+    public void setDniAviso(int dniAvisop) {
+        this.dniAviso = dniAvisop;
+    }
+
+    public int getDniAviso() {
+        return dniAviso;
+    }
+
+    private String aviso;
+
+    public void setAviso(String avisop) {
+        this.aviso = avisop;
+    }
+
+    public String getAviso() {
+        return aviso;
+    }
+
+    public void Emitir_Mensaje() {
+    };
+
 }
 
 
